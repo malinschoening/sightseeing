@@ -1,0 +1,286 @@
+body {
+    background-color: #ffffff;
+    width: 351px;
+    font-family: questrial, arial; 
+    height: 812px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #47767B;
+}
+
+.noacc {
+    font-size: 13px;
+    color: #3e3e3e;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+.login {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.login button {
+    bottom: 0;
+}
+
+
+.loggain {
+     margin-top: -110px;
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 53px;
+    
+}.createacc {
+     margin-top: -110px;
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 10px;
+    
+}
+.create {
+    font-size: 13px;
+    margin-left: 78px;
+    color: #A2A2A2;
+    
+}
+
+#startContent {
+    margin-top: 10px;
+}
+
+#createContent {
+    margin-top: 10px;
+}
+input {
+    width: 200px;
+    margin-left: 75px;
+    outline: none; 
+    margin-top: 10px;
+    border: 1px solid #a2a2A2;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #A0E6D6;
+    font-size: 20px;
+    padding: 20px 10px;
+    border-radius: 30px;
+    color: #747474;
+}
+
+#menu {
+    background-color: #47767B;
+    height: 40px;
+    margin: auto;
+    width: 351px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    padding-top: 5px;
+    
+}
+
+.places {
+    margin-left: 40px;
+    float: left;
+}
+
+.globe {
+    margin-left: 85px;
+    float: left;
+    
+}
+
+.friends {
+    float: right;
+    margin-right: 40px;
+    
+}
+
+.besokta {
+    margin-top: -25px;
+    font-size: 13px;
+    color: #404040;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5px;
+}
+
+#map {
+    width: 351px;
+    height: 600px;
+}
+
+#jud {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#jud img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
+#brompan {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#akes {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#hund {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#blocks {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#golf {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#drott {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#lill {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#bjork {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#flyg {
+    width: 200px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #47767B;
+    font-size: 15px;
+    overflow: scroll;
+}
+
+#brompan img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
+
+#akes img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
+
+#hund img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
+
+#blocks img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
+
+#golf img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
+
+#drott img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
+
+#lill img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
+
+#bjork img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
+
+#flyg img {
+    width: 200px;
+    margin: auto; 
+    border-radius: 10px;
+}
