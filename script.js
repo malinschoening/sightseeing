@@ -1,22 +1,9 @@
 
 
-function change(){
-    var cremail = document.getElementById("createemail").value;
-    var crpassword = document.getElementById("createpassword").value;
-    window.location = "index.html";
-}
-
-
-
-// Login
 function validate(){
 var email = document.getElementById("email").value;
 var password = document.getElementById("password").value;
-if ( email == cremail && password == crpassword){
-window.location = "map.html"; //om loginen funkar kommer man till sidan med kartan.
-return false;
-}
-    else if(email == "hej" && password == "hej"){
+if(email == "hej" && password == "hej"){
 window.location = "map.html";
     }
 else{
@@ -36,7 +23,6 @@ else{
           fullscreenControl: false
         });
         infoWindow = new google.maps.InfoWindow;
-
           
 //geolocation för att hitta ens nuvarande plats
         if (navigator.geolocation) {
@@ -128,7 +114,8 @@ else{
             }; 
           
     var current = new google.maps.Marker({
-        position:{pos},
+        position:{lat: position.coords.latitude,
+              lng: position.coords.longitude},
         map: map,
         title: 'Nuvarande plats',
         icon: iconBase + 'blu-blank.png'
@@ -235,4 +222,4 @@ else{
                               'Error: The Geolocation service failed.' :
                               'Error: Your browser doesn\'t support geolocation.');
         infoWindow.open(map);
-      }
+      }}
